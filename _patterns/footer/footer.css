@@ -4,7 +4,7 @@
 }
 
 .bottom-nav {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-dark);
   width: 100%;
 }
 
@@ -15,5 +15,8 @@
 
 .footer-nav {
   font-family: var(--font-primary);
+  color: #fff;
+  text-decoration: none;
+  list-style-type: none;
   color: var(--color-secondary);
 }
