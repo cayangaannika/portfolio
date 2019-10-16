@@ -1,9 +1,9 @@
 .section-1 {
   background-color: var(--color-secondary);
-  font-family: var(--font-primary)
+  font-family: var(--font-secondary)
 }
 
 .section-2 {
-  background-color: var(--color-primary-light);
-  font-family: var(--font-primary)
+  background-color: var(--color-primary);
+  font-family: var(--font-secondary)
 }

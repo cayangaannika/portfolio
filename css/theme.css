@@ -12,3 +12,8 @@
 html {
   font-family: var(--font-secondary);
 }
+
+a {
+  font-family: var(--font-seondary);
+  color: var(--color-secondary);
+}

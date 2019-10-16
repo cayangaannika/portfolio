@@ -1,39 +1,29 @@
-.banner-header {
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  font-family: "Abril Fatface", sans-serif;
-  padding-bottom: 0;
-  position: relative;
+.masthead {
+  font-family: var(--font-primary);
+  background-color: var(--color-primary-dark);
 }
 
-.img-top {
-  padding-top: 0;
+.nav {
+  text-decoration: none;
+  padding: 0;
 }
 
-.icon-label {
-  color: var(--color-primary);
-  font-family: "Abril Fatface", sans-serif;
-  font-size: 1.5rem;
+.nav a {
+  text-decoration: none;
 }
 
-.banner-content-header {
-  text-align: center;
-  color: var(--color-primary);
-  font-size: 1.35rem;
-}
+@media only screen and (min-width: 38em) {
 
-.masthead-home {
-  background-color: var(--color-secondary);
-  font-family: var(--font-primary)
-  border-bottom: .1rem solid #bea59b;
-  color: var(--color-primary);
-}
+  .right-nav {
+    text-align: right;
+  }
 
-.logo-text {
-  display: inline-block;
-  width: 100%;
-  padding-top: 0;
+  .nav-gutter {
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+  }
+
+  .left-nav {
+    text-align: left;
+  }
 }

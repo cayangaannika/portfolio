@@ -1,11 +1,8 @@
-.sign-up {
-  background-color: white;
-  color: var(--color-primary);
-}
-
 .bottom-nav {
   background-color: var(--color-primary-dark);
   width: 100%;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .credits {
@@ -19,4 +16,8 @@
   text-decoration: none;
   list-style-type: none;
   color: var(--color-secondary);
+}
+
+.footer-nav a {
+  text-decoration: none;
 }
