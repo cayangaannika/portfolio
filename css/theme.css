@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #2D2A21;
+  --color-primary-light: #A89C8D;
+  --color-secondary: #F0E9DB;
+  --color-accent: #F28236;
+  --color-accent-light: #FFFFFF;
+
+  --font-primary: "Dosis", sans-serif;
+  --font-secondary: "Oleo Script", cursive;
+}
+
+html {
+  font-family: var(--font-secondary);
+}

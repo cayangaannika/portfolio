@@ -1,2 +1,35 @@
 permalink: pretty
 theme: jekyll_patternbot
+
+patternbot:
+  title: "Annika Designs"
+  description: |
+    Hello my name is Annika Cayanga.
+    Growing up, my family and I moved places quite often. I ended up being exposed to many different cultures and that influenced my interest in the arts and design.
+    Because I moved from country to country, the travel bug has stuck to me. Traveling has enabled me to explore new places and to get an insight on the beauty of different architectures, sculptures, and paintings.
+    These inspired me to become the artist that I am today. I am still constantly exploring different aspects of design which helps me nurture my skills further.
+    I enjoy bringing my camera and go pro on 8 hour hikes. You can catch me sipping on a good cup of vanilla latte while slurping on a delicious bowl of ramen. I would happily get paid in bowls of ramen or lattes!
+  font_url: "https://fonts.googleapis.com/css?family=Dosis|Oleo+Script&display=swap"
+  rationales:
+    typefaces.primary: |
+      Dosis font was selected as the primary typeface because of its consistent line thickness and height. The rounded terminal on the font will complement the secondary typeface.
+      This will allow users to browse though the website with ease because it is not too hard on the eyes yet still achieving harmony.
+    typefaces.secondary: |
+      Oleo Script font was selected as the secondary typeface because of its gracefulness and touch of playfulness. With the clean curves and thick weight, this gives the font a refined
+      yet playful touch which can relate to my style of design. This font is to be used mostly for headings due to its decorative character.
+    colors.primary: |
+      The primary color selected is a dark shade of brown to allow my artworks to shine and pop. The darker green color is to be used for some headings and foreground to make the brand logo and content.
+      The lighter shade of beige color will be used for some sections to achieve continuity and space so the dark shade does not overwhelm the eyes.
+    colors.secondary: |
+      The secondary color is a lighter and calmer beige tone. To not overwhelm the eyes with just deep and bold colors, having a lighter beige for some foreground will
+      achieve a calming yet intriguing effect to the website.
+    colors.accent: |
+      The accent colors selected will be used to achive consistency throughout the pages in the website. This color will also be used for some buttons.
+      Using a more vivid and vibrant color will add more unity . The color white will be used to create a sense of space.
+      White conveys feelings of freshness and simplicity which will complement the neutral colors well.
+  colors:
+    background: "--color-primary"
+    foreground: "--color-secondary"
+    accent: "--color-accent-light"
+    patterns:
+      brand.logos: "--color-secondary"
