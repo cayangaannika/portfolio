@@ -1,8 +1,8 @@
 :root {
-  --color-primary: #A89C8D;
-  --color-primary-dark: #2D2A21;
-  --color-secondary: #F0E9DB;
-  --color-accent: #F28236;
+  --color-primary: #f2eadf;
+  --color-primary-dark: #cba693;
+  --color-secondary: #f2d7cc;
+  --color-accent: #756764;
   --color-accent-light: #FFFFFF;
 
   --font-primary: "Dosis", sans-serif;
@@ -15,5 +15,5 @@ html {
 
 a {
   font-family: var(--font-seondary);
-  color: var(--color-secondary);
+  color: var(--color-accent);
 }
