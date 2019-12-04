@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<form class="push-0" method="POST" action="https://formspree.io/caya0006@algonquincollege.com">
+  {% pattern form/name-form %}
+  {% pattern form/email-form %}
+  {% pattern form/phone-form %}
+  {% pattern form/address-form %}
+  {% pattern form/send-form %}
+
+  <div class="text-center max-length pad-b">
+    {% pattern buttons/ghost text="Continue" url=include.data.url %}
+  </div>
+</form>

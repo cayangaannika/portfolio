@@ -1,12 +1,33 @@
-<div class="grid card">
-  <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-    <img class="img-flex island" src="/images/placeholder.svg" alt="">
-  </div>
-  <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island">
-    <h2 class="pad-top">Local businesses</h2>
-    <div class="card-content">
-      <p>Check out some of my work that I have done for local business owners!</p>
+<ul class="cards grid text-center">
+  <li class="cards__item unit xs-1 s-1 m-1 l-1-3 xl-1-3">
+    <div class="card">
+      <div class="card__image card__image--flowers"><img class="island-2" src="/images/work.jpg" alt="Work icon"></div>
+      <div class="card__content">
+        <div class="card__title">Work</div>
+        <p class="card__text">Branding, packaging design and more! Check out some of my best graphic design work</p>
+        {% pattern buttons/basic %}
+      </div>
     </div>
-    {% pattern buttons/basic %}
-  </div>
-</div>
+  </li>
+  <li class="cards__item unit xs-1 s-1 m-1 l-1-3 xl-1-3">
+    <div class="card">
+      <div class="card__image card__image--flowers"><img class="island-2" src="/images/leisure.jpg" alt="Leisure icon"></div>
+      <div class="card__content">
+        <div class="card__title">Leisure</div>
+        <p class="card__text">Free time = Making Art, what more can I say. Come check them out!</p>
+        {% pattern buttons/basic %}
+      </div>
+    </div>
+  </li>
+  <li class="cards__item unit xs-1 s-1 m-1 l-1-3 xl-1-3">
+    <div class="card">
+      <div class="card__image card__image--flowers"><img class="island-2" src="/images/photography.jpg" alt="Leisure icon"></div>
+      <div class="card__content">
+        <div class="card__title">Photography</div>
+        <p class="card__text">Photography allows us to capture the most beautiful moments of our lives.
+           They say photographs are free passes to our past. Come check them out!</p>
+        {% pattern buttons/basic %}
+      </div>
+    </div>
+  </li>
+</ul>

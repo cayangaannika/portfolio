@@ -10,6 +10,9 @@ patternbot:
     These inspired me to become the artist that I am today. I am still constantly exploring different aspects of design which helps me nurture my skills further.
     I enjoy bringing my camera and go pro on 8 hour hikes. You can catch me sipping on a good cup of vanilla latte while slurping on a delicious bowl of ramen. I would happily get paid in bowls of ramen or lattes!
   font_url: "https://fonts.googleapis.com/css?family=Dosis|Oleo+Script&display=swap"
+  layouts:
+    default: |
+      The default layout should be used throughout all the pages. It will be used as the base template.
   rationales:
     typefaces.primary: |
       Dosis font was selected as the primary typeface because of its consistent line thickness and height. The rounded terminal on the font will complement the secondary typeface.

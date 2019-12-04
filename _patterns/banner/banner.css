@@ -2,3 +2,11 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.logo-right {
+  text-align: right;
+  position: absolute;
+  right: 0;
+  width: 100px;
+  height: 120px;
+}

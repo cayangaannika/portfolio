@@ -1,13 +1,13 @@
 .btn {
   background-color: var(--color-accent);
-  border-color: var(--color-primary);
-  color: var(--color-accent-light);
+  border-color: var(--color-primary-dark);
+  color: var(--color-accent);
   text-decoration: none;
 }
 
 .btn:hover {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary-light);
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-accent);
 }
 
 .btn-ghost {
@@ -17,12 +17,12 @@
 
 .btn-ghost:hover {
   background-color: var(--color-secondary);
-  color: var(--color-primary);
+  color: var(--color-accent);
 }
 
 .btn-light {
   background-color: var(--color-secondary);
-  color: var(--color-primary);
+  color: var(--color-accent);
 }
 
 .btn-light:hover {
