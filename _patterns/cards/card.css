@@ -6,6 +6,17 @@ p {
   background-color: #fff;
 }
 
+.card-btn {
+  text-decoration: none;
+  background-color: var(--color-accent);
+  color: #ffffff;
+  padding: .5em;
+}
+
+.card-btn:hover {
+  background-color: var(--color-primary-dark);
+}
+
 body {
   color: @gray;
   font-family: var(--font-primary);

@@ -32,9 +32,8 @@
 }
 
 .work-1 {
-  background-color: var(--color-primary);
+  background-color: var(--color-accent-light);
   font-family: var(--font-secondary);
-  margin: 0;
 }
 
 .work-2 {
@@ -43,11 +42,23 @@
 }
 
 .work-3 {
-  background-color: var(--color-primary);
+  background-color: var(--color-accent-light);
   font-family: var(--font-secondary);
 }
 
 .work-4 {
   background-color: var(--color-secondary);
   font-family: var(--font-secondary);
+}
+
+.work-btn {
+  text-decoration: none;
+  font-family: var(--font-primary);
+  background-color: var(--color-accent);
+  color: #ffffff;
+  padding: .5em;
+}
+
+.work-btn:hover {
+  background-color: var(--color-primary-dark);
 }

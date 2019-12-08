@@ -2,40 +2,37 @@
   <body>
     <form>
       <fieldset>
-        <legend><span class="number">2</span>Your profile</legend>
-        <label for="bio">Biography:</label>
+        <legend><span class="number">2</span>Project Description</legend>
+        <label for="bio">Comments or Questions about project:</label>
         <textarea id="bio" name="user_bio"></textarea>
       </fieldset>
       <fieldset>
-      <label for="job">Job Role:</label>
+      <label for="job">Subject:</label>
       <select id="job" name="user_job">
+        <optgroup label="Branding">
+          <option value="Android_developer">Branding Identity</option>
+          <option value="iOS_developer">Infographs</option>
+          <option value="mobile_designer">Annual Reports</option>
+        </optgroup>
         <optgroup label="Web">
-          <option value="frontend_developer">Front-End Developer</option>
-          <option value="php_developor">PHP Developer</option>
-          <option value="python_developer">Python Developer</option>
-          <option value="rails_developer"> Rails Developer</option>
-          <option value="web_designer">Web Designer</option>
-          <option value="WordPress_developer">WordPress Developer</option>
+          <option value="web_design">Web design</option>
+          <option value="app_design">App design</option>
+          <option value="web_coding">Web coding</option>
         </optgroup>
-        <optgroup label="Mobile">
-          <option value="Android_developer">Androild Developer</option>
-          <option value="iOS_developer">iOS Developer</option>
-          <option value="mobile_designer">Mobile Designer</option>
+        <optgroup label="Photography">
+          <option value="product_photography">Product Photography</option>
+          <option value="portrait_photography">Portrait Photography</option>
         </optgroup>
-        <optgroup label="Business">
-          <option value="business_owner">Business Owner</option>
-          <option value="freelancer">Freelancer</option>
-        </optgroup>
-        <optgroup label="Other">
-          <option value="secretary">Secretary</option>
-          <option value="maintenance">Maintenance</option>
+        <optgroup label="Illustrations">
+          <option value="digital_drawings_paintings">Digital Drawings/paintings</option>
+          <option value="vectorized_illustrations">Vectorized Illustrations</option>
         </optgroup>
       </select>
 
-        <label>Interests:</label>
-        <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Development</label><br>
-          <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Design</label><br>
-        <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Business</label>
+        <label>How do you want to get in touch?:</label>
+        <input type="checkbox" id="email" value="interest_email" name="user_interest"><label class="light" for="email">Email</label><br>
+          <input type="checkbox" id="in-person" value="interest_in_person" name="user_interest"><label class="light" for="in_person">In person</label><br>
+        <input type="checkbox" id="facetime-skype" value="interest_facetime_skype" name="user_interest"><label class="light" for="facetime">Facetime/Skype</label>
 
       </fieldset>
       <button type="submit">Continue</button>
