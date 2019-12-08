@@ -17,18 +17,6 @@ p {
   background-color: var(--color-primary-dark);
 }
 
-body {
-  color: @gray;
-  font-family: var(--font-primary);
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -moz-font-feature-settings: "liga" on;
-}
-
 img {
   height: auto;
   max-width: 100%;
@@ -129,4 +117,29 @@ img {
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;
+}
+
+.process {
+  text-decoration: none;
+}
+
+h3 {
+  padding-bottom: 0;
+  color: var(--color-primary-dark);
+}
+
+.insta {
+  font-family: var(--font-primary);
+}
+
+.insta:hover {
+  color: var(--color-primary-dark);
+}
+
+.email-me {
+  font-family: var(--font-primary);
+}
+
+.email-me:hover {
+  color: var(--color-primary-dark);
 }

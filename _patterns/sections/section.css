@@ -34,6 +34,7 @@
 .work-1 {
   background-color: var(--color-accent-light);
   font-family: var(--font-secondary);
+  margin: 0;
 }
 
 .work-2 {
@@ -60,5 +61,16 @@
 }
 
 .work-btn:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.aboutme-btn {
+  text-decoration: none;
+  background-color: var(--color-accent);
+  color: #ffffff;
+  padding: .5em;
+}
+
+.aboutme-btn:hover {
   background-color: var(--color-primary-dark);
 }
