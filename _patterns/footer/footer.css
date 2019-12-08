@@ -8,6 +8,8 @@
 .credits {
   font-family: var(--font-primary);
   color: var(--color-accent);
+  padding: 0;
+  margin: 0;
 }
 
 .footer-nav {

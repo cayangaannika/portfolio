@@ -105,10 +105,11 @@ img {
 }
 
 .card__title {
-  color: @gray-dark;
+  color: var(--color-primary-dark);
   font-size: 1.25rem;
   font-weight: 300;
   letter-spacing: 2px;
+  padding: 0;
   text-transform: uppercase;
 }
 

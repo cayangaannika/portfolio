@@ -1,9 +1,53 @@
-.section-1 {
-  background-color: var(--color-secondary);
-  font-family: var(--font-secondary)
+.about-me {
+  background-color: var(--color-primary);
+  font-family: var(--font-secondary);
 }
 
-.section-2 {
+.title-01 {
+  font-family: var(--font-secondary);
+  padding: 0;
+}
+
+.img-01 {
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.img-1 {
+  margin: 0;
+  text-align: center;
+}
+
+.about-me {
+  padding-top: 4em;
+}
+
+.emphasize-me-1 {
+  color: var(--color-primary-dark);
+}
+
+.emphasize-me-2 {
+  font-family: var(--font-primary);
+}
+
+.work-1 {
   background-color: var(--color-primary);
-  font-family: var(--font-secondary)
+  font-family: var(--font-secondary);
+  margin: 0;
+}
+
+.work-2 {
+  background-color: var(--color-secondary);
+  font-family: var(--font-secondary);
+}
+
+.work-3 {
+  background-color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+.work-4 {
+  background-color: var(--color-secondary);
+  font-family: var(--font-secondary);
 }
