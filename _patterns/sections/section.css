@@ -87,6 +87,10 @@
   font-family: var(--font-primary);
 }
 
+.error-page {
+  background-color: var(--color-accent-light);
+}
+
 .error-btn {
   text-decoration: none;
   background-color: var(--color-accent);
@@ -97,4 +101,16 @@
 
 .error-btn:hover {
   background-color: var(--color-primary-dark);
+}
+
+.desc-aats {
+  padding: 1em;
+}
+
+.needs-1 {
+  padding: 1em;
+}
+
+.mock-ups {
+  padding: 1em;
 }
