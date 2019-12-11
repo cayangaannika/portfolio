@@ -94,7 +94,7 @@ label.light {
 }
 
 .number {
-  background-color: #5fcf80;
+  background-color: var(--color-accent);
   color: #fff;
   height: 30px;
   width: 30px;

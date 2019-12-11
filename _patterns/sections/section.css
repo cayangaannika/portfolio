@@ -32,23 +32,21 @@
 }
 
 .work-1 {
-  background-color: var(--color-accent-light);
   font-family: var(--font-secondary);
   margin: 0;
 }
 
 .work-2 {
-  background-color: var(--color-secondary);
   font-family: var(--font-secondary);
+  padding-top: 2em;
+  padding-bottom: 3em;
 }
 
 .work-3 {
-  background-color: var(--color-accent-light);
   font-family: var(--font-secondary);
 }
 
 .work-4 {
-  background-color: var(--color-secondary);
   font-family: var(--font-secondary);
 }
 
@@ -72,5 +70,31 @@
 }
 
 .aboutme-btn:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.design-process {
+  margin: 0;
+  background-color: var(--color-primary-dark);
+}
+
+.design-process-title {
+  color: var(--color-primary);
+}
+
+.process-title {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+}
+
+.error-btn {
+  text-decoration: none;
+  background-color: var(--color-accent);
+  color: #ffffff;
+  padding: .5em;
+  font-family: var(--font-primary);
+}
+
+.error-btn:hover {
   background-color: var(--color-primary-dark);
 }

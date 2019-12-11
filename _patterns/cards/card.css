@@ -143,3 +143,7 @@ h3 {
 .email-me:hover {
   color: var(--color-primary-dark);
 }
+
+.phone-me {
+  color: var(--color-accent);
+}
