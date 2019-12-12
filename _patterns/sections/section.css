@@ -122,3 +122,15 @@
 .needs-2 {
   padding: 1em;
 }
+
+.submitted-btn {
+  text-decoration: none;
+  background-color: var(--color-accent);
+  color: #ffffff;
+  padding: .5em;
+  font-family: var(--font-primary);
+}
+
+.submitted-btn:hover {
+  background-color: var(--color-primary-dark);
+}
