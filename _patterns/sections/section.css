@@ -65,6 +65,7 @@
 .aboutme-btn {
   text-decoration: none;
   background-color: var(--color-accent);
+  font-family: var(--font-primary);
   color: #ffffff;
   padding: .5em;
 }
