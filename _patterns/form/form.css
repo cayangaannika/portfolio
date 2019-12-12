@@ -55,7 +55,7 @@ select {
 
 .card-btn {
   font-family: var(--font-primary);
-  background-color: var(--color-secondary);
+  background-color: var(--color-accent);
   font-size: 18px;
   text-align: center;
   font-style: normal;

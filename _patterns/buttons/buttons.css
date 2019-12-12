@@ -1,4 +1,4 @@
-.btn {
+.btn-1 {
   background-color: var(--color-primary-dark);
   border-color: var(--color-primary-dark);
   color: var(--color-accent);
@@ -6,27 +6,29 @@
   font-family: var(--font-secondary);
 }
 
-.btn:hover {
+.btn-1:hover {
   background-color: var(--color-primary-dark);
   border-color: var(--color-accent);
 }
 
-.btn-ghost {
+.btn-ghost-1 {
   background-color: var(--color-primary);
   border-color: var(--color-secondary);
+  text-decoration: none;
 }
 
-.btn-ghost:hover {
+.btn-ghost-1:hover {
   background-color: var(--color-secondary);
   color: var(--color-accent);
 }
 
-.btn-light {
+.btn-light-1 {
   background-color: var(--color-secondary);
   color: var(--color-accent);
+  text-decoration: none;
 }
 
-.btn-light:hover {
+.btn-light-1:hover {
   background-color: var(--color-accent);
   border-color: var(--color-primary);
   color: var(--color-accent-light);
